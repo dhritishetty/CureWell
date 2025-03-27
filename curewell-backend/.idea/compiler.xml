@@ -15,12 +15,14 @@
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.36/lombok-1.18.36.jar" />
         </processorPath>
         <module name="CureWell" />
+        <module name="curewell-backend" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="CureWell" options="-parameters" />
+      <module name="curewell-backend" options="-parameters" />
     </option>
   </component>
 </project>
